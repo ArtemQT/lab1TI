@@ -80,6 +80,7 @@ namespace lab1TI
             CipheredtextBox.Text = GenerateOutputString(OriginText.ToUpper(), Planetext, cipherText);
 
             WriteToFilebutton.Enabled = true;
+            CipheredtextBox.Enabled = true;
         }
 
         private string GenerateOutputString(string text, string plain, string cipher)

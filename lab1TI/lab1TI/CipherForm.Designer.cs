@@ -156,6 +156,7 @@
             // 
             // CipheredtextBox
             // 
+            this.CipheredtextBox.Enabled = false;
             this.CipheredtextBox.Location = new System.Drawing.Point(251, 432);
             this.CipheredtextBox.Multiline = true;
             this.CipheredtextBox.Name = "CipheredtextBox";
